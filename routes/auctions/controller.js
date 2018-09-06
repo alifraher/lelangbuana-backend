@@ -228,9 +228,10 @@ const controller = {
                 })
         }
         else{
-            res.status(400).send({
-                message: "You have to insert the keywords"
-            })
+            // res.status(200).send({
+            //     message: "You have to insert the keywords"
+            // })
+            res.send(auctions)
         }
     },
 
